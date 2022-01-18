@@ -29,7 +29,6 @@ class ChangeTextTest {
         context.startActivity(intent)
         device.wait(Until.hasObject(By.pkg(packageName)), TIMEOUT)
     }
-
     @Before
     fun beforeEachTest() {
         // Press home
